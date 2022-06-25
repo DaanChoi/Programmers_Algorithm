@@ -13,7 +13,7 @@ def solution2(x):
     return x % sum([int(c) for c in str(x)]) == 0
 print(solution2(18))
 
-# 아이디어
+# 구현 아이디어
 # solution1에서
 # 자연수의 각 자릿수 합을 구하기 위해서 우선 문자열 자료형으로 바꾸는 것을 생각함
 # 그리고 각 문자열의 문자들을 정수형으로 바꿔서 합함
