@@ -11,7 +11,7 @@ def solution1(participant, completion):
     return participant[0]
 print(solution1(["mislav", "stanko", "mislav", "ana"], ["stanko", "ana", "mislav"]))
 print(solution1(["leo", "kiki", "eden"], ["eden", "kiki"]))
-# 시간복잡도 O(n2) => 효율설 테스트 탈락
+# 시간복잡도 O(n2) => 효율성 테스트 탈락
 
 def solution2(participant, completion):
     hashDict = {}
