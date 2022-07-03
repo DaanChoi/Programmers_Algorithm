@@ -15,7 +15,5 @@ def solution2(array, commands):
     return answer 
 print(solution2([1, 5, 2, 6, 3, 7, 4], [[2, 5, 3], [4, 4, 1], [1, 7, 3]]))
 
-# ls = [1,2,3,4]
 # i, j, k, l = ls
-# print(i, j, k, l)
 # 배열의 각 원소를 변수에 담기(언팩킹)
